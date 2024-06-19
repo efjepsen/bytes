@@ -1,3 +1,5 @@
+#![feature(restricted_std)]
+
 //! Wrapper types to enable optimized handling of `&[u8]` and `Vec<u8>`.
 //!
 //! Without specialization, Rust forces Serde to treat `&[u8]` just like any
